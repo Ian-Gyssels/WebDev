@@ -1,0 +1,30 @@
+/* Headings */
+H1, H2, H3, H4, H5, H6{
+  font-family: Arial, serif;
+}
+H1{
+  font-size: 1.8em;
+}
+H2{
+  font-size: 1.5em;
+}
+H3{
+  font-size: 1.4em;
+}
+
+/* paragraaf */
+p{
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+}
+
+/* klasses */
+.rood{
+  color: red;
+}
+.blauw{
+  color: blue;
+}
+.groen{
+  color: green;
+}

@@ -1,0 +1,27 @@
+.html {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: orange;
+}
+.css {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: dodgerblue;
+}
+
+.svg{
+    position: relative;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 600px;
+}
