@@ -4,7 +4,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: orange;
+    background-color: #FF6600;
 }
 .css {
     width: 50%;
@@ -16,12 +16,18 @@
 }
 
 .svg{
+    /* centreren */
     position: relative;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     left: 50%;
     top: 50%;
+
+    /* grootte instellen */
     width: 300px;
     height: 600px;
+
+
 }
+
