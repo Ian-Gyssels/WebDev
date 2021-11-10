@@ -1,0 +1,30 @@
+td {
+    border: 1px dotted black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td:last-child, td:first-child{
+    background-color: rgb(255, 220, 220);
+}
+
+.dag td{
+    background-color: rgb(35,37,70);
+    color: rgb(200,190,240);
+}
+
+th{
+    background-color: rgb(170,170,200);
+}
+
+.dag16 {
+    background-color: rgb(250,120,120);
+}
+
+.vorigeMaand{
+    background-color: #EEEEEE !important;
+    color: #AAAAAA;
+}
