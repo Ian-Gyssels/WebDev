@@ -1,0 +1,16 @@
+.sectionBig{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+    float: left;
+
+
+}
+
+.sectionsmall{
+    border: black solid 1px;
+    padding: 10px;
+}
+
+
+
