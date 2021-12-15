@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="455"
+   height="500"
+   viewBox="-26 -20 507 552"
+   xml:space="preserve"
+   id="svg40"
+   sodipodi:docname="c.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata44"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="934"
+   inkscape:window-height="654"
+   id="namedview42"
+   showgrid="false"
+   inkscape:zoom="0.472"
+   inkscape:cx="227.5"
+   inkscape:cy="273.30508"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g869" />
+	<defs
+   id="defs20">
+		<clipPath
+   id="hexagon">
+			<path
+   d="M435.279,113.284L247.191,4.692c-10.835-6.257-28.567-6.257-39.402,0L19.701,113.284     C8.865,119.539,0,134.896,0,147.408v217.185c0.843,14.571,8.286,26.639,19.701,34.123l188.088,108.592     c10.835,6.257,28.567,6.257,39.402,0l188.088-108.592c12.248-8.146,19.219-20.408,19.701-34.123V147.408     C454.54,134.243,446.657,120.965,435.279,113.284z"
+   id="path2" />
+		</clipPath>
+
+		<linearGradient
+   id="top"
+   gradientUnits="userSpaceOnUse"
+   x1="121.0946"
+   y1="55.8074"
+   x2="261.7725"
+   y2="235.867">
+			<stop
+   offset="0"
+   style="stop-color: #A47EDE"
+   id="stop5" />
+			<stop
+   offset="1"
+   style="stop-color: #9866D3"
+   id="stop7" />
+		</linearGradient>
+
+		<linearGradient
+   id="centre"
+   gradientUnits="userSpaceOnUse"
+   x1="314.1754"
+   y1="207.291"
+   x2="443.4638"
+   y2="372.7726">
+			<stop
+   offset="0"
+   style="stop-color: #3B009B"
+   id="stop10" />
+			<stop
+   offset="1"
+   style="stop-color: #390086"
+   id="stop12" />
+		</linearGradient>
+
+		<linearGradient
+   id="bottom"
+   gradientUnits="userSpaceOnUse"
+   x1="115.2882"
+   y1="326.1631"
+   x2="252.7405"
+   y2="502.094">
+			<stop
+   offset="0"
+   style="stop-color: #340084"
+   id="stop15" />
+			<stop
+   offset="1"
+   style="stop-color: #290064"
+   id="stop17" />
+		</linearGradient>
+	</defs>
+
+	
+
+	
+
+	
+<g
+   id="g860"
+   transform="translate(-51.937046,127.48184)"><g
+     id="g869"
+     transform="matrix(0.89669582,0,0,0.89703641,13.146421,9.4134714)"><ellipse
+       style="opacity:1;fill:#e8b02c;fill-opacity:0.97512434;fill-rule:nonzero;stroke:none;stroke-width:0.57213569;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path851"
+       cx="298.60657"
+       cy="114.35349"
+       rx="239.66687"
+       ry="229.04337" /><path
+       id="c"
+       d="M 123.2546,112.01289 C 122.49127,-14.574391 292.42019,-70.470123 365.70079,47.151964 L 309.47047,79.617481 C 275.52582,23.598654 191.2433,43.629311 188.21826,112.01204 c 0.90811,63.02395 83.74707,92.30019 121.25564,32.39114 l 56.23032,32.46467 C 301.12353,288.73025 126.51182,248.4843 123.2546,112.01289 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.85575843" /><g
+       id="sharp"
+       aria-label="♯"
+       data-name="♯"
+       transform="matrix(1.4695928,0,0,1.3684791,-80.220854,-228.33865)">
+		<polygon
+   points="338.5,213 329.959,295.5 317.224,295.5 326,213 "
+   id="polygon31"
+   style="fill:#ffffff" />
+		<polygon
+   points="365.276,213 356.735,295.5 344,295.5 352.776,213 "
+   id="polygon33"
+   style="fill:#ffffff" />
+		<rect
+   x="312"
+   y="232.592"
+   width="62.5"
+   height="12.072"
+   id="rect35"
+   style="fill:#ffffff" />
+		<rect
+   x="308.5"
+   y="262"
+   width="62.5"
+   height="12.072"
+   id="rect37"
+   style="fill:#ffffff" />
+	</g></g></g></svg>

@@ -1,0 +1,15 @@
+.container{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-areas:
+    'a b c d'
+    'e f g h'
+    'i j k l'
+;
+}
+
+.container .block{
+    margin:50px;
+    padding:50px;
+    background-color: white;
+}
