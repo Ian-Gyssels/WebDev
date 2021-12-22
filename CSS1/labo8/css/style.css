@@ -1,0 +1,197 @@
+/** Volgende CSS gaan we ze geven **/
+*{
+    margin: 0;
+    font-family: Helvelica, serif;
+}
+
+.respimg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    border-bottom: black solid 2px;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+header{
+    border-bottom: #ebe8e8 solid 1px;
+    width: 980px;
+
+}
+
+header img{
+    height: 50px;
+}
+@media only screen and (max-width: 999px) {
+    header{
+        width: 750px;
+    }
+    nav{
+        width: 750px;
+    }
+
+    .recipes_full_block{
+        width: 750px;
+    }
+    .recommended_full_block{
+        width: 750px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    header{
+        width: 600px;
+    }
+    nav{
+        width: 600px;
+    }
+    .recipes_full_block{
+        width: 600px;
+    }
+    .recommended_full_block{
+        width: 600px;
+    }
+}
+
+nav{
+    display: grid;
+    grid-template-areas: "a b c d e f g";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 960px;
+    margin:auto auto;
+}
+
+nav span{
+    text-align: center;
+    border-right: gray 1px solid;
+    text-transform: uppercase;
+    color: #5b4746;
+    font-size: 18px;
+}
+nav span:last-of-type{
+    border-right: none;
+}
+
+nav span:hover{
+    text-decoration: underline;
+    color:#fff100;
+}
+.mainHeader {
+    height: 500px;
+    background-image: url("../img/headerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 500px;
+    text-shadow: 2px 2px #8D99AE;
+}
+@media only screen and (min-width: 800px) {
+    .mainHeader{
+        font-size: 5em;
+    }
+}
+
+.recipes_title{
+    margin-top: 50px;
+}
+
+.recipes_full_block{
+    margin: auto auto;
+    width: 980px;
+}
+
+.recipes_block{
+    display: grid;
+    grid-template-areas:
+    "articelA fotoA"
+    "articelB fotoB"
+    "articelC fotoC"
+;
+    grid-gap: 15px;
+}
+
+h3{
+    color: #ff4d56;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.article{
+    margin-right: 1.5em;
+    border-top: #ddd 1px solid;
+}
+
+h2>a{
+    color: black;
+    text-decoration: none;
+}
+
+.article_body{
+    color: #666;
+    line-height: 2;
+
+}
+.author{
+    padding-right: 10px;
+    border-right: #ebe8e8 1px solid ;
+    font-style: italic;
+}
+
+.timestamp{
+    padding-left: 10px;
+    color: #666;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    border-top: #ebe8e8 1px solid;
+}
+#left{
+    float: left;
+    width: 50%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 2em;
+    text-align: right;
+    padding-right: 10px;
+}
+#right{
+    float: right;
+    width: 50%;
+    background-color: black;
+    color:white;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    line-height: 2em;
+}
+
+.recommended_full_block{
+    margin-top: 50px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foto_margin{
+    margin-bottom: 25px;
+}
