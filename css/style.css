@@ -1,5 +1,5 @@
 .html {
-    width: 50%;
+    width: 33.333%;
     height: 100%;
     position: absolute;
     left: 0;
@@ -7,12 +7,20 @@
     background-color: #FF6600;
 }
 .css {
-    width: 50%;
+    width: 33.333%;
     height: 100%;
     position: absolute;
-    left: 50%;
+    left: 33.333%;
     top: 0;
     background-color: dodgerblue;
+}
+.javascript {
+    width: 33.333%;
+    height: 100%;
+    position: absolute;
+    left: 66.666%;
+    top: 0;
+    background-color: yellow;
 }
 
 .svg{
