@@ -1,0 +1,9 @@
+div{
+    display: inline-block;
+}
+p{
+    display: inherit;
+}
+input{
+    display: inherit;
+}
