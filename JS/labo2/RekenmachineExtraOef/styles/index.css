@@ -1,0 +1,52 @@
+.grid{
+    display: grid;
+    grid-template-areas:
+            'a a a a'
+            'b c d e'
+            'f g h i'
+            'j k l m'
+            'n o p q'
+;
+    width: 60%;
+    margin: auto auto;
+}
+p{
+    height: 100px;
+    background-color: lightgray;
+    font-size: 15px;
+}
+
+input{
+    height: 60px;
+    font-size: 20px;
+}
+body{
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+/*titel*/
+.title h1 {
+    text-align: center;
+    font-size:40px; font-weight:300; color:#222; letter-spacing:1px;
+    text-transform: uppercase;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.title h1:after,.title h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    height: 5px;
+}
+
+
