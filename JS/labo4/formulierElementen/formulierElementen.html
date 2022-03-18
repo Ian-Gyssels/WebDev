@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>from</title>
+</head>
+<body>
+<form method="post">
+    <label for="Firstname">First name*:</label>
+    <input type="text" id="Firstname" name="Firstname" required /> <br />
+
+    <label for="Lastname">Last name*:</label>
+    <input type="text" id="Lastname" name="Lastname" required /> <br />
+
+    <label>Which sport do you train?</label> <br/>
+    <input type="checkbox" id="running"><label for="running"> running</label><br />
+    <input type="checkbox" id="swimming"><label for="swimming"> swimming </label><br />
+    <input type="checkbox" id="rowing"><label for="rowing"> rowing </label><br>
+
+    <label>What is your gender</label><br />
+    <input type="radio" value="Male" name="gender"> Male <br />
+    <input type="radio" value="Female" name="gender"> Female <br />
+
+    <label for="movie">Favorite movie:</label>
+    <input type="text" id="movie" name="movie"  /> <br />
+
+    <label for="quote">Favorite quote:</label>
+    <input type="text" id="quote" name="quote"  placeholder="Write your favorite quote" /> <br />
+
+    <label for="password">Password*:</label>
+    <input type="password" id="password" name="password" required /> <br />
+
+    <label for="food">First name*:</label>
+
+    <select id="food" name="food">
+        <option value="Hamburger">Hamburger</option>
+        <option value="Kaas">Kaas</option>
+    </select> <br />
+
+    <input type="file"> <br />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"  /> <br />
+
+    <label for="site">site:</label>
+    <input type="url" id="site" name="site"  /> <br />
+
+    <label for="eentTien">favorite number between 1-10:</label>
+    <input type="number" id="eentTien" name="eentTien" min="1" max="10"  /> <br />
+
+    <label for="eenthond">favorite number between 1-10:</label>
+    <input type="range" id="eenthond" name="eenthond" min="1" max="100"  /> <br />
+
+    <label for="date">when were you born:</label>
+    <input type="date" id="date" name="date"  /> <br />
+
+    <label for="zip">zip-code:</label>
+    <input type="text" id="zip" name="zip" pattern="[0-9]{4}" /> <br />
+
+    <label for="search">search:</label>
+    <input type="search" id="search" name="search"  /> <br />
+
+    <label for="color">what is your favorite color:</label>
+    <input type="color" id="color" name="color"  /> <br />
+
+    <input type="submit">
+
+</form>
+</body>
+</html>
