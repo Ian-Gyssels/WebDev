@@ -35,6 +35,7 @@ const formatDate = (date) => {
 }
 
 const showPerson = () => {
+    clearAllErrors();
     let select = document.getElementById('lstPersonen');
     let person = personen[select.selectedIndex];
     document.getElementById('txtVoornaam').value = person.voornaam;
@@ -66,21 +67,22 @@ const bewaarBewerktePersoon = () => {
     let select = document.getElementById('lstPersonen');
 
     // valideer alle input data en controleer of er geen errors meer zijn
-    valideer();
+    if(valideer()) {
 
-    // indien ok, bewaar de ingegeven data.
+        // indien ok, bewaar de ingegeven data.
         // een nieuw aangemaakte persoon voegen we toe
         // een bestaande persoon in de lijst passen we aan
-    let person = personen[select.selectedIndex];
-    person.voornaam = document.getElementById('txtVoornaam').value ;
-    person.familienaam = document.getElementById('txtFamilienaam').value;
-    person.geboorteDatum = new Date(document.getElementById('txtGeboorteDatum').value);
-    person.email = document.getElementById('txtEmail').value;
-    person.aantalKinderen = document.getElementById('txtAantalKinderen').value;
+        let person = personen[select.selectedIndex];
+        person.voornaam = document.getElementById('txtVoornaam').value;
+        person.familienaam = document.getElementById('txtFamilienaam').value;
+        person.geboorteDatum = new Date(document.getElementById('txtGeboorteDatum').value);
+        person.email = document.getElementById('txtEmail').value;
+        person.aantalKinderen = document.getElementById('txtAantalKinderen').value;
 
-    // zorg ervoor dat de naam en voornaam ook aangepast en/of zichtbaar zijn in de lijst na updaten
-    let personOption = document.getElementById('lstPersonen').options[select.selectedIndex];
-    personOption.text = person.voornaam + " " + person.familienaam;
+        // zorg ervoor dat de naam en voornaam ook aangepast en/of zichtbaar zijn in de lijst na updaten
+        let personOption = document.getElementById('lstPersonen').options[select.selectedIndex];
+        personOption.text = person.voornaam + " " + person.familienaam;
+    }
 };
 
 // Event listener (btnNieuw click)
