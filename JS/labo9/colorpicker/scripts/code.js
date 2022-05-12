@@ -63,6 +63,23 @@ const loadColors = () => {
 
 }
 
+const createDivJSON = (data) => {
+    let div = document.createElement("div");
+    div.className = data.className;
+    div.addEventListener("click", chooseColor);
+    div.style.backgroundColor = data.divBackgroundColor;
+    //add custom id to div
+    div.id = data.id;
+    // add button
+    let button = document.createElement("button");
+    button.className = data.buttonClassName;
+    button.innerHTML = data.buttonInnerHTML;
+    button.addEventListener("click", removeColor);
+    div.appendChild(button);
+
+    return div;
+}
+
 const update = () => {
     let sliders = document.getElementsByClassName("slider");
     let colorDemos = document.getElementsByClassName("colorDemo");
@@ -119,23 +136,6 @@ const createDiv = () => {
     let button = document.createElement("button");
     button.className = "colorButton";
     button.innerHTML = "X";
-    button.addEventListener("click", removeColor);
-    div.appendChild(button);
-
-    return div;
-}
-
-const createDivJSON = (data) => {
-    let div = document.createElement("div");
-    div.className = data.className;
-    div.addEventListener("click", chooseColor);
-    div.style.backgroundColor = data.divBackgroundColor;
-    //add custom id to div
-    div.id = data.id;
-    // add button
-    let button = document.createElement("button");
-    button.className = data.buttonClassName;
-    button.innerHTML = data.buttonInnerHTML;
     button.addEventListener("click", removeColor);
     div.appendChild(button);
 
