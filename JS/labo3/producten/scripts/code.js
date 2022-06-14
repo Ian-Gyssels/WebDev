@@ -12,7 +12,7 @@ const bereken = () =>{
 
 
     for (let i = 0; i < prijzen.length; i++) {
-        let tussen = (parseFloat(prijzen[i].innerHTML) * parseFloat(aantallen[i].value)); //NaN
+        let tussen = (parseFloat(prijzen[i].innerHTML) * parseFloat(aantallen[i].value));
         console.log(tussen);
         totalen[i].innerHTML = tussen + tussen * (parseFloat(btw[i].innerHTML) / 100);
     }
